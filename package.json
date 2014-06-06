@@ -1,0 +1,27 @@
+{
+  "name": "imports-deps-algo",
+  "version": "0.0.1",
+  "description": "Studying HTML Imports dependency resolution algorithm",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dglazkov/imports-deps-algo"
+  },
+  "keywords": [
+    "HTML",
+    "imports",
+    "research",
+    "web",
+    "components",
+    "dependency",
+    "resolution"
+  ],
+  "author": "Dimitri Glazkov",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/dglazkov/imports-deps-algo/issues"
+  },
+  "homepage": "https://github.com/dglazkov/imports-deps-algo",
+  "devDependencies": {
+    "traceur": "0.0.42"
+  }
+}
