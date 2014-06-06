@@ -1,5 +1,6 @@
 import ImportDocument from './import-document';
 
-var test = ImportDocument.createRoot('A');
-console.log(test.url);
-test.process('B');
+var a = ImportDocument.createRoot('A');
+var b = a.whenNewLinkFound('B');
+console.log(a);
+console.log(b);

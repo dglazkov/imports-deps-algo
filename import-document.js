@@ -23,8 +23,7 @@ class ImportDocument {
   }
 
   // called when a new <link rel=import href={url}> in this document is encountered.
-  // Name mimics LinkImport::process.
-  process(url) {
+  whenNewLinkFound(url) {
     var importDocument = importDocuments[url];
     var edgeState = Edge.Unknown;
     if (importDocument) {
@@ -36,6 +35,8 @@ class ImportDocument {
     var edge = new Edge(edgeState, this, importDocument);
     this.addImport(edge);
     importDocument.addDependent(edge);
+
+    return importDocument;
   }
 
   addImport(edge) {
