@@ -1,4 +1,4 @@
 imports-deps-algo
 =================
 
-StudyingHTML Imports dependency resolution algorithm
+Studying HTML Imports dependency resolution algorithm
